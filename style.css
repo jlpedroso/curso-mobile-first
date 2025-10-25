@@ -1,12 +1,23 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+    
 :root {
     --cor-primaria: #3498db;
     --cor-secundaria: #2ecc71;
+    --cor-titulo: #eb9800;
     --cor-fundo: #ebecee;
-    --cor-texto: #333333;
+    --cor-fundo-secundario: #ffffff;
+    --cor-texto: #850f0f;
+    --cor-texto-secundario: #ffffff;
+    --cor-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1 {
