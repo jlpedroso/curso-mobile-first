@@ -8,12 +8,15 @@
 :root {
     --cor-titulo: #eb9800; 
     --cor-titulo-secundario: #002f52;
+    --cor-titulo-terciario: #858585;
     --cor-fundo: #ebecee;
     --cor-fundo-secundario: #ffffff;
     --cor-texto: #000000;
     --cor-texto-secundario: #ffffff;
+    --cor-texto-terciario: #474646;
     --cor-degrade: linear-gradient(97.54deg, #002f52 35.49%, #5b025e 165.37%);
     --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans';
 }
 
 body {
